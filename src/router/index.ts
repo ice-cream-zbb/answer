@@ -16,6 +16,9 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
+    // 路由级别代码拆分
+    // 这将为此路由生成单独的块（关于[hash].js）
+    // 当路线被访问时延迟加载的。
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   }
 ]

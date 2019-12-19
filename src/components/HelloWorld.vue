@@ -42,6 +42,7 @@ export default class HelloWorld extends Vue {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
+<!--添加scoped属性保持css只在当前页面生效-->
 <style scoped lang="scss">
 h3 {
   margin: 40px 0 0;
